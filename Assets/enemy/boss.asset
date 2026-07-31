@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::UnitData
   unitName: Howk
   visual: {fileID: 736821032, guid: f4d270c6c49ebdf4aa1c3b2c749c185a, type: 3}
-  maxHp: 150
+  maxHp: 100
   attack: 30
   defense: 20
   exp: 200

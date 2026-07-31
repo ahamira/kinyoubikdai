@@ -347,6 +347,10 @@ public class BattleManager : MonoBehaviour
         if (Random.value > 0.5f)
         {
             Debug.Log("“¦‚°‚ê‚½");
+            if (fieldPlayerStatus != null && playerUnit != null)
+            {
+                fieldPlayerStatus.currentHp = Mathf.Clamp(playerUnit.currentHp, 0, fieldPlayerStatus.MaxHp);
+            }
             EndBattle();
         }
         else
